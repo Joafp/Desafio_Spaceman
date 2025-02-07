@@ -16,7 +16,6 @@ Se detectaron filas en las que `eancode` e `idcadena` son los mismos, pero la de
 ### c) Diferencias por Caracteres Especiales o Acentos
 Otro problema detectado es la existencia de productos con el mismo `eancode` e `idcadena`, pero con diferencias en la descripción debidas a acentos o caracteres especiales. Esto dificulta la agrupación y consolidación de los datos.
 
-*Ejemplo visual del problema:*  
 
 ### d) Categorías de Uso Interno
 Se identificaron productos con la categoría "Uso Interno" que aparecían duplicados en la base de datos. Para este análisis, se decidió excluir estos productos de la relación con los tickets para evitar inconsistencias.
