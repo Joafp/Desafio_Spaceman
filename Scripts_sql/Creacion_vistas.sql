@@ -6,7 +6,7 @@ SELECT
 FROM maestros.tickets t
 JOIN maestros.productos p 
     ON t.eancode = p.eancode 
-    AND t.idcadena = p.idcadena  -- Se asegura que sean de la misma cadena
+    AND t.idcadena = p.idcadena  
 JOIN maestros.categorias c 
     ON p.id_categoria = c.id_categoria 
     AND p.idcadena = c.idcadena

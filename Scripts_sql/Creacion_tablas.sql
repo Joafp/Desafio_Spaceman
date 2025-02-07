@@ -27,14 +27,14 @@ CREATE TABLE maestros.categorias (
     PRIMARY KEY (id_categoria, idcadena) -- Clave primaria compuesta
 );
 CREATE TABLE maestros.productos (
-    id BIGSERIAL PRIMARY KEY,  -- Usamos BIGSERIAL para manejar valores más grandes
-    idcadena BIGINT NOT NULL,   -- Cambiamos idcadena a BIGINT
-    eancode BIGINT NOT NULL,    -- Cambiamos eancode a BIGINT
+    id BIGSERIAL PRIMARY KEY,  
+    idcadena BIGINT NOT NULL,   
+    eancode BIGINT NOT NULL,    
     descripcion VARCHAR(255),
-    id_sector BIGINT NOT NULL,  -- Cambiamos id_sector a BIGINT
-    id_seccion BIGINT NOT NULL, -- Cambiamos id_seccion a BIGINT
-    id_categoria BIGINT NOT NULL, -- Cambiamos id_categoria a BIGINT
-    id_subcategoria BIGINT NOT NULL, -- Cambiamos id_subcategoria a BIGINT
+    id_sector BIGINT NOT NULL,  
+    id_seccion BIGINT NOT NULL, 
+    id_categoria BIGINT NOT NULL, 
+    id_subcategoria BIGINT NOT NULL, 
     fabricante VARCHAR(255),
     marca VARCHAR(255),
     contenido FLOAT,
